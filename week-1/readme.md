@@ -18,14 +18,13 @@ CSS is not really a programming language. It is not a markup language either —
 selector { property: value; }
 
 p { color: red; }
-
 ```
 
 ### Layout Tags
 
 `<div>`
 
-The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
+The HTML Content Division element (`<div>`) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
 
 `<head>`
 
