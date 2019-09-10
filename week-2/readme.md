@@ -38,3 +38,7 @@ Border property sets an element's border. It sets the values of `border-width`, 
 ### Web Safe Fonts and Font Stacks
 
 `font-size`
+
+`font-family`
+
+### Google Fonts / Font Squirrel
