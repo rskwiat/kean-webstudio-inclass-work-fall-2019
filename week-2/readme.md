@@ -79,6 +79,10 @@ h1 { font-size: 24px }
 h1 { font-size: 1.5em } 24 / 16 = 1.5
 ```
 
+By default 1em = 16px, by setting our html to 62.5%, 1em = 10px.
+
+http://pxtoem.com/
+
 The benefit of using relative units is that with some careful planning you can make it so the size of text or other elements scale relative to everything else on the page.
 
 ```
