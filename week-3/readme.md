@@ -1,9 +1,15 @@
 
 # Items Covered
 
+---
+
 ## HTML Tags
 
 ### Layout Tags
+
+### CSS Tags
+
+---
 
 
 ### Webfonts Pros / Cons
