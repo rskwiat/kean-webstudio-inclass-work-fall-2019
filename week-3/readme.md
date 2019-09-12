@@ -8,7 +8,7 @@
 
 ### Webfonts Pros / Cons
 
-#### Self Hosted (Font Squirell, @font-face)
+#### Self Hosted (Font Squirrel, @font-face)
 
 Pros | Cons
 --- | ---
