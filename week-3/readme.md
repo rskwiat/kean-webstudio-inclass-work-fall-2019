@@ -7,6 +7,8 @@
 
 ### Layout Tags
 
+* [Meta Tag List](https://htmlhead.dev/)
+
 `<section>`
   
 `<article>`
