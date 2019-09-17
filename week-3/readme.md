@@ -7,7 +7,22 @@
 
 ### Layout Tags
 
+`<section>`
+  
+`<article>`
+
+
 ### CSS Tags
+
+`float: left | right | none`
+`clear: both`;
+
+#### Old School Grid
+
+```
+  One Column Width
+  width: 100 / 12 = 8.33333333%
+```
 
 Color
 
