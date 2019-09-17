@@ -9,6 +9,18 @@
 
 ### CSS Tags
 
+Color
+
+```
+  HEX, RGB, RGBA
+```
+
+Color Reference Sites
+[https://www.colourlovers.com/](https://www.colourlovers.com/)
+[https://color.adobe.com/create](Adobe Color)
+
+
+
 ---
 
 
