@@ -1,3 +1,14 @@
-# kean-webstudio-inclass-work-fall-2019
+# Items Covered
 
-Archival purposes only for all inclass work for webstudio
+---
+
+## HTML Tags
+
+### Layout Tags
+
+## CSS Tags
+
+
+CSS Variables
+
+`:root` selector
