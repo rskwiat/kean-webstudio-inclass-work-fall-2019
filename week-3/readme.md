@@ -10,20 +10,30 @@
 * [Meta Tag List](https://htmlhead.dev/)
 
 `<section>`
-  
-`<article>`
 
+The `<section>` element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document. The `section` tag can be used in stead of a div
 
 ### CSS Tags
 
 `float: left | right | none`
 `clear: both`;
 
+[Clearfix](http://learnlayout.com/clearfix.html)
+
+https://css-tricks.com/snippets/css/clear-fix/
+
+https://stackoverflow.com/questions/8554043/what-is-a-clearfix
+
+#### If you don't need to support IE9 or lower, you can use flexbox freely, and don't need to use floated layouts.
+
+• Clearfix is a way for an element to automatically clear its child elements, so that you don't need to add additional markup. It's generally used in float layouts where elements are floated to be stacked horizontally.
+
+
 #### Old School Grid
 
 ```
   One Column Width
-  width: 100 / 12 = 8.33333333%
+  width: 100% / 12 = 8.33333333%
 ```
 
 
