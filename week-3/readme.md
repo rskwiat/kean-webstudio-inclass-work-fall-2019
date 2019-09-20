@@ -26,6 +26,8 @@
   width: 100 / 12 = 8.33333333%
 ```
 
+
+
 Color
 
 ```
@@ -39,13 +41,25 @@ Color
 * [Flat UI Colors](https://flatuicolors.com/)
 * [Material Design Colors](https://www.materialui.co/colors)
 
-
-
-
 ---
 
-
 ### Webfonts Pros / Cons
+
+```
+@font-face
+```
+
+The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer.
+
+```
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+```
+
+WOFF - [Web Open Font File](https://en.wikipedia.org/wiki/Web_Open_Font_Format)
+
 
 #### Self Hosted (Font Squirrel, @font-face)
 
