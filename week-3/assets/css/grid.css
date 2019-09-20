@@ -1,0 +1,24 @@
+/* 
+  CSS Grid only example for the 3 column layout in class
+*/
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  margin: 0 0 2rem;
+}
+
+.card {
+  position: relative;
+  padding: 1rem 2rem;
+  border: .1rem solid #333;
+  border-radius: .4rem;
+  flex: 1;
+}
+
+@media (min-width: 767px) {
+  .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
