@@ -8,101 +8,52 @@
 
 `nav`
 
+The HTML <nav> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
 `ul`
+
+The HTML <ul> element represents an unordered list of items, typically rendered as a bulleted list.
 
 `li`
 
+The HTML <li> element is used to represent an item in a list. It must be contained in a parent element: an ordered list (<ol>), an unordered list (<ul>), or a menu (<menu>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+
 `a`
 
-### Security Concerns
+The HTML <a> element (or anchor element), along with its href attribute, creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
 
-target="_blank"
-`rel="
+`footer`
 
-https://mathiasbynens.github.io/rel-noopener/
+The HTML <footer> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.
+
+### HTML Entities
+
+An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;) . Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.  
+
+https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 
 ## CSS Tags
 
+`transform`
 
-CSS Variables
-
-`:root` selector
-
-The :root CSS pseudo-class matches the root element of a tree representing the document.
-
-`CSS Variables`
-
-Property names that are prefixed with `--`, like `--example-name`, represent custom properties that contain a value that can be used in other declarations using the `var()` function.
-
-The `var()` CSS function can be used to insert the value of a custom property (sometimes called a "CSS variable") instead of any part of a value of another property.
+The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.
 
 ```
-:root {
-  --background: #eee;
-}
-
-body {
-  background: var(--background);
-}
+transform: translateY(3in);
 ```
 
-`:nth-child(n)`
-
-The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings.
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
-
-
-`:last-child`
-
-The `:last-child` CSS pseudo-class represents the last element among a group of sibling elements.
-
-`text-decoration`
-```
-  a {
-    text-decoration: none;
-  }
-```
-
-The text-decoration attribute defines whether text is decorated with an underline, overline and/or strike-through.
-
-`transition`
-
-The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay.
-
-Transitions enable you to define the transition between two states of an element. 
-
-```
-  a {
-    /* property, duration, timing function, delay */
-    transition: background 450ms ease-in-out;
-  }
-```
-
-`box-shadow`
-
-```
-.element {
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-```
-
-The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radii, and color.
-
-`position: fixed`
-
-The position CSS property sets how an element is positioned in a document. 
-
-The element is removed from the normal document flow, and no space is created for the element in the page layout. Its final position is determined by the values of top, right, bottom, and left.
-
-`align-items`
-
-The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis.
-  
+TranslateY transforms an element on it's Y (Vertical) Axis.
 
 ### Dark Theme
 
 https://developer.apple.com/videos/play/wwdc2019/518
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+
+
+### Can I Use
+
+https://caniuse.com/
+
+### B.E.M. Syntax
+
