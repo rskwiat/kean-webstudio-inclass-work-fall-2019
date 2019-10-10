@@ -64,3 +64,4 @@ If you want to squeeze out any excess metadata, compress even further.
 * [Image Optim - Mac Desktop App, Paid Web App](https://imageoptim.com/mac)
 * [Kraken](https://kraken.io/)
 * [Tiny PNG](https://tinypng.com/)
+* [Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
