@@ -65,17 +65,3 @@ If you want to squeeze out any excess metadata, compress even further.
 * [Kraken](https://kraken.io/)
 * [Tiny PNG](https://tinypng.com/)
 * [Image Compressor](https://www.websiteplanet.com/webtools/imagecompressor/)
-
-## SVGs
-
-1. Creating an SVG
-
-
-### SVG Icons
-* [Ico Moon](http://icomoon.io)
-* [Flat Icon](https://www.flaticon.com/)
-* [Noun Project](https://thenounproject.com/
-
-## Optimizing SVGs
-* SVGo
-* [SVG OMG](https://jakearchibald.github.io/svgomg/)
