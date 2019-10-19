@@ -2,7 +2,42 @@
 
 ## Creating a SVG
 
+1. Create your **vector** graphic with the tool of your choice. All screenshots here will be used with Adobe Illustrator CS5.
+
+![Example](screenshots/svg/example-svg.jpg)
+
+Make sure to resize your artboard to be touching (or close to) the vector.
+
+2. File Save As > Change the file type to SVG
+
+![Save as](screenshots/svg/save-menu-highlighted.jpg)
+
 ## Optimizing SVG Workflow
+
+1. In the SVG Profile Menu in Save As, click on the "Show SVG Code"
+
+![Show SVG Code](screenshots/svg/svg-profile.jpg)
+
+![Show SVG Code](screenshots/svg/show-svg-code.jpg)
+
+2. Copy the Code that gets generated.
+
+![Code](screenshots/svg/code.jpg)
+
+
+3. Goto [SVGOMG](https://jakearchibald.github.io/svgomg/) and click on Paste Markup, and paste in the copied code. This tool will remove any excess markup from the SVG.
+
+![Before Pasting](screenshots/svg/svg-omg-before.jpg)
+
+![After](screenshots/svg/svg-omg-after.jpg)
+
+
+## Illustrator Alternatives
+
+Tired of Adobe?
+
+* [Affinity Tools - Designer, Photo and Publisher](https://affinity.serif.com/en-us/)
+* [Inkscape](https://inkscape.org/)
 
 ### SVG Icons
 * [Ico Moon](http://icomoon.io)
