@@ -1,0 +1,90 @@
+@keyframes colorShift {
+  0% {
+    color: red;
+  }
+  50% {
+    color: orange
+  }
+  75% {
+    color: purple;
+  }
+}
+
+.colorShift {
+  animation: colorShift 1.5s infinite ease-in-out paused;
+}
+
+.colorShift:hover{
+  animation-play-state: running;
+}
+
+@keyframes rotateIn {
+  0% {
+    opacity: 0;
+    transform: rotateY(0);
+  }
+  75% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(360deg);
+  }
+}
+
+.rotateIn {
+  animation: rotateIn 1s 1 forwards ease-in-out;
+}
+
+@keyframes scaleUpAndRotate {
+  50% {
+    transform: scale(1.2) rotate(20deg);
+  }
+  75% {
+    fill: purple;
+    transform: scale(.8) rotate(-20deg);
+  }
+  100% {
+    fill: orange;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+svg {
+  fill: currentColor;
+  animation: scaleUpAndRotate 500ms infinite paused 
+}
+
+svg:hover {
+  animation-play-state: running;
+}
+
+
+@keyframes bounceAndShake {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: scale(.9) rotate(2deg);
+  }
+  20% {
+    transform: scale(1) rotate(-2deg);
+  }
+  70%{
+    transform: scale(.9) rotate(2deg);
+  }
+  90% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.product-image img {
+  animation: bounceAndShake 1s infinite alternate paused;
+}
+
+.product-image img:hover {
+  animation-play-state: running;
+}

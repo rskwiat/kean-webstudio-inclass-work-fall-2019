@@ -10,4 +10,22 @@ document.addEventListener('DOMContentLoaded', () => {
     'lg': 1200
   };
 
+  openMenu.addEventListener('click', () => sidebarMenu());
+  closeMenu.addEventListener('click', () => sidebarMenu());
+  overlay.addEventListener('click', () => sidebarMenu());
+
+  function sidebarMenu() {
+    overlay.classList.toggle('overlay-open');
+    navSidebar.classList.toggle('nav-sidebar-open');   
+  }
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > bp.sm) {
+      overlay.classList.remove('overlay-open');
+      navSidebar.classList.remove('nav-sidebar-open');   
+    }
+  });
+
+
+
 });
